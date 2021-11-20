@@ -1,4 +1,4 @@
-//Date
+//Current Date
 var todaysDate = moment().format("DD MMM, YYYY hh:mm");
 console.log(todaysDate)
 
@@ -12,15 +12,15 @@ $('.description')
   .each(function() {
     var val = parseInt($(this).prop('id'));
     if(val > currentHour) {
-      $(this).attr('class', 'future');
+      $(this).addClass('future');
     }else if(val < currentHour){
-      $(this).attr('class', 'past');
+      $(this).addClass('past');
     }else{
-      $(this).attr('class', 'present');
+      $(this).addClass('present');
     }
   }
   )
 
-
+//Save Button
 
 
