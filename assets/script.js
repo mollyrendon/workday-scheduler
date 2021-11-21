@@ -21,25 +21,42 @@ $('.description')
   }
   )
 
-  function saveData() {
-    var i = 9
-    var data = [];
-    while(i < 18) {
-      var el = document.getElementById(i).value;
-      data.push(el);
-      i++;
-    }
-    localStorage.setItem("storedData", JSON.stringify(data));
-      var testStorage = localStorage.getItem("storedData");
-   
-  }
   
   var j = 9;
   var x = 0;
   var toDo = JSON.parse(localStorage.getItem("storedData"));
   console.log(toDo);
   while(j < 18) {
-    document.getElementById(j).value = toDo[x];
-    x++
-    j++
+    if(document.getElementById(j).value){
+      j++
+      x++
+    }
+    else{
+      document.getElementById(j).value = toDo[x];
+      x++
+      j++
+    }
+
+}
+
+
+  function saveData(i) {
+    j = 9; 
+    var data = [];
+    while(j <18){
+      if(document.getElementById(j)==i){
+      var el = document.getElementById(i).value;
+      data.push(el);
+      }
+      else if(document.getElementById(j)){
+        el = document.getElementById(j).value;
+        data.push(el);
+      }
+      else{
+        data.push("")
+      }
+      j++
+}
+    var testStorage = localStorage.setItem("storedData", JSON.stringify(data)); 
+    console.log(testStorage); 
   }
