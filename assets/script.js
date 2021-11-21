@@ -22,8 +22,8 @@ $('.description')
   )
 
 
-
-  function saveData(i) {
+//Save Functions
+  function saveData() {
   }
 
   $(".saveBtn").on("click", function(){
