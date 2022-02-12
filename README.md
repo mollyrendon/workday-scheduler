@@ -1,22 +1,32 @@
 # Work Day Scheduler
 
-# Purpose
+# Description  
+  An application designed to allow users to write, save, and delete note.  The following technologies were used to build this site:  Javascript, HTML, CSS, and JQuery.
 
-A 9 to 5 schedule where clients can save/edit tasks and keep track of their time.
+  # Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-# Built With
+  # Installation
+ 
 
-HTML
-CSS
-Javascript
-JQuery
+  # Usage
 
-# Website
+ 
+  # Contributing  
+  Molly Rendon.
 
-https://mollyrendon.github.io/assignment-5/
+  # Tests
 
-# Contribution
 
-Made by Molly Rendon
+  # Questions
+  For any questions please contact mollyrendon at this email molly.rendon@outlook.com.
+
+
+https://mollyrendon.github.io/workday-scheduler/
 
 ![Work Day Schedule](https://user-images.githubusercontent.com/92175961/142779580-e4006c97-bc2d-420c-81f5-db38a15cb3e3.png)
